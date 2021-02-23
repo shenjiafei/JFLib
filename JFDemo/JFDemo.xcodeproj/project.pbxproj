@@ -13,6 +13,7 @@
 		DAA8B2E525E4E4E100E6AC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B2E325E4E4E100E6AC1A /* Main.storyboard */; };
 		DAA8B2E725E4E4E600E6AC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B2E625E4E4E600E6AC1A /* Assets.xcassets */; };
 		DAA8B2EA25E4E4E600E6AC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B2E825E4E4E600E6AC1A /* LaunchScreen.storyboard */; };
+		DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		DAA8B2E625E4E4E600E6AC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAA8B2E925E4E4E600E6AC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAA8B2EB25E4E4E600E6AC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		DAA8B2F425E4EB1100E6AC1A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		DAA8B2DC25E4E4E100E6AC1A /* JFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DAA8B2F225E4EAF100E6AC1A /* Test */,
+				DAA8B2F125E4EA7D00E6AC1A /* MVVM */,
 				DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */,
 				DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */,
 				DAA8B2E125E4E4E100E6AC1A /* ViewController.swift */,
@@ -65,6 +71,23 @@
 				DAA8B2EB25E4E4E600E6AC1A /* Info.plist */,
 			);
 			path = JFDemo;
+			sourceTree = "<group>";
+		};
+		DAA8B2F125E4EA7D00E6AC1A /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		DAA8B2F225E4EAF100E6AC1A /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B2F425E4EB1100E6AC1A /* TestViewController.h */,
+				DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */,
+				DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */,
+			);
+			path = Test;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +122,7 @@
 				TargetAttributes = {
 					DAA8B2D925E4E4E100E6AC1A = {
 						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -140,6 +164,7 @@
 			files = (
 				DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */,
 				DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */,
+				DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */,
 				DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +309,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JFDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +318,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orz.jiafei.JFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JFDemo/Test/JFDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +329,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JFDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = orz.jiafei.JFDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JFDemo/Test/JFDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
