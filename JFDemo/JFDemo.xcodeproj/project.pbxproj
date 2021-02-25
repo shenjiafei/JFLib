@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19512D6752225C7645AB3589 /* libPods-JFDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561A8D3F04DD3CA545578CE /* libPods-JFDemo.a */; };
 		DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */; };
 		DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */; };
 		DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2E125E4E4E100E6AC1A /* ViewController.swift */; };
@@ -14,9 +15,16 @@
 		DAA8B2E725E4E4E600E6AC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B2E625E4E4E600E6AC1A /* Assets.xcassets */; };
 		DAA8B2EA25E4E4E600E6AC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA8B2E825E4E4E600E6AC1A /* LaunchScreen.storyboard */; };
 		DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */; };
+		DAA8B2F925E6217F00E6AC1A /* JFMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2F825E6217F00E6AC1A /* JFMVVMViewController.m */; };
+		DAA8B2FC25E623DB00E6AC1A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2FB25E623DB00E6AC1A /* User.m */; };
+		DAA8B2FF25E6242B00E6AC1A /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2FE25E6242B00E6AC1A /* UserViewModel.m */; };
+		DAA8B30325E632AB00E6AC1A /* ReactiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7561A8D3F04DD3CA545578CE /* libPods-JFDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95D6C3E0C82CD5CC8889B01B /* Pods-JFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFDemo.debug.xcconfig"; path = "Target Support Files/Pods-JFDemo/Pods-JFDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5BDC09F132E8FC69017E1C6 /* Pods-JFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFDemo.release.xcconfig"; path = "Target Support Files/Pods-JFDemo/Pods-JFDemo.release.xcconfig"; sourceTree = "<group>"; };
 		DAA8B2DA25E4E4E100E6AC1A /* JFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +36,14 @@
 		DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JFDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		DAA8B2F425E4EB1100E6AC1A /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		DAA8B2F725E6217F00E6AC1A /* JFMVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JFMVVMViewController.h; sourceTree = "<group>"; };
+		DAA8B2F825E6217F00E6AC1A /* JFMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JFMVVMViewController.m; sourceTree = "<group>"; };
+		DAA8B2FA25E623DB00E6AC1A /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		DAA8B2FB25E623DB00E6AC1A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		DAA8B2FD25E6242B00E6AC1A /* UserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		DAA8B2FE25E6242B00E6AC1A /* UserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
+		DAA8B30125E632AB00E6AC1A /* ReactiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveViewController.h; sourceTree = "<group>"; };
+		DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19512D6752225C7645AB3589 /* libPods-JFDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07E77B7D999BF948867719BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				95D6C3E0C82CD5CC8889B01B /* Pods-JFDemo.debug.xcconfig */,
+				A5BDC09F132E8FC69017E1C6 /* Pods-JFDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DAA8B2D125E4E4E100E6AC1A = {
 			isa = PBXGroup;
 			children = (
 				DAA8B2DC25E4E4E100E6AC1A /* JFDemo */,
 				DAA8B2DB25E4E4E100E6AC1A /* Products */,
+				07E77B7D999BF948867719BE /* Pods */,
+				E226D77617881578C3D065C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +88,7 @@
 		DAA8B2DC25E4E4E100E6AC1A /* JFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DAA8B30025E6328700E6AC1A /* Reactive */,
 				DAA8B2F225E4EAF100E6AC1A /* Test */,
 				DAA8B2F125E4EA7D00E6AC1A /* MVVM */,
 				DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */,
@@ -76,6 +105,12 @@
 		DAA8B2F125E4EA7D00E6AC1A /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				DAA8B2F725E6217F00E6AC1A /* JFMVVMViewController.h */,
+				DAA8B2F825E6217F00E6AC1A /* JFMVVMViewController.m */,
+				DAA8B2FA25E623DB00E6AC1A /* User.h */,
+				DAA8B2FB25E623DB00E6AC1A /* User.m */,
+				DAA8B2FD25E6242B00E6AC1A /* UserViewModel.h */,
+				DAA8B2FE25E6242B00E6AC1A /* UserViewModel.m */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -90,6 +125,23 @@
 			path = Test;
 			sourceTree = "<group>";
 		};
+		DAA8B30025E6328700E6AC1A /* Reactive */ = {
+			isa = PBXGroup;
+			children = (
+				DAA8B30125E632AB00E6AC1A /* ReactiveViewController.h */,
+				DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */,
+			);
+			path = Reactive;
+			sourceTree = "<group>";
+		};
+		E226D77617881578C3D065C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7561A8D3F04DD3CA545578CE /* libPods-JFDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -97,6 +149,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DAA8B2EE25E4E4E600E6AC1A /* Build configuration list for PBXNativeTarget "JFDemo" */;
 			buildPhases = (
+				CA8D5D7B1238DF8205542F16 /* [CP] Check Pods Manifest.lock */,
 				DAA8B2D625E4E4E100E6AC1A /* Sources */,
 				DAA8B2D725E4E4E100E6AC1A /* Frameworks */,
 				DAA8B2D825E4E4E100E6AC1A /* Resources */,
@@ -157,14 +210,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CA8D5D7B1238DF8205542F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JFDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DAA8B2D625E4E4E100E6AC1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA8B2FF25E6242B00E6AC1A /* UserViewModel.m in Sources */,
 				DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */,
 				DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */,
+				DAA8B2FC25E623DB00E6AC1A /* User.m in Sources */,
 				DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */,
+				DAA8B30325E632AB00E6AC1A /* ReactiveViewController.m in Sources */,
+				DAA8B2F925E6217F00E6AC1A /* JFMVVMViewController.m in Sources */,
 				DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +389,7 @@
 		};
 		DAA8B2EF25E4E4E600E6AC1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D6C3E0C82CD5CC8889B01B /* Pods-JFDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -327,6 +410,7 @@
 		};
 		DAA8B2F025E4E4E600E6AC1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5BDC09F132E8FC69017E1C6 /* Pods-JFDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;

@@ -48,6 +48,7 @@ ViewController:UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = TestViewController()
         let navVC = UINavigationController.init(rootViewController: vc)
+        navVC.modalPresentationStyle = .fullScreen
         present(navVC, animated: true, completion: nil)
 //        navigationController?.pushViewController(navVC, animated: true)
     }
