@@ -8,6 +8,58 @@
 
 /* Begin PBXBuildFile section */
 		19512D6752225C7645AB3589 /* libPods-JFDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7561A8D3F04DD3CA545578CE /* libPods-JFDemo.a */; };
+		DA9BACA227732B8A0006E5B0 /* YSCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5927732B880006E5B0 /* YSCOperation.m */; };
+		DA9BACA327732B8A0006E5B0 /* GCD01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */; };
+		DA9BACA427732B8A0006E5B0 /* NSOperation01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */; };
+		DA9BACA527732B8A0006E5B0 /* GCD_SlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5F27732B880006E5B0 /* GCD_SlowViewController.m */; };
+		DA9BACA627732B8A0006E5B0 /* GCD04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6027732B880006E5B0 /* GCD04ViewController.m */; };
+		DA9BACA727732B8A0006E5B0 /* NSOperation04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6127732B880006E5B0 /* NSOperation04ViewController.m */; };
+		DA9BACA827732B8A0006E5B0 /* NSOperation03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6227732B880006E5B0 /* NSOperation03ViewController.m */; };
+		DA9BACA927732B8A0006E5B0 /* GCD03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6327732B880006E5B0 /* GCD03ViewController.m */; };
+		DA9BACAA27732B8A0006E5B0 /* NSOperation02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6427732B880006E5B0 /* NSOperation02ViewController.m */; };
+		DA9BACAB27732B8A0006E5B0 /* GCD02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6527732B880006E5B0 /* GCD02ViewController.m */; };
+		DA9BACAC27732B8A0006E5B0 /* GCD05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6927732B880006E5B0 /* GCD05ViewController.m */; };
+		DA9BACAD27732B8A0006E5B0 /* NSOperation05ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6A27732B880006E5B0 /* NSOperation05ViewController.m */; };
+		DA9BACAE27732B8A0006E5B0 /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC6E27732B880006E5B0 /* SecViewController.m */; };
+		DA9BACAF27732B8A0006E5B0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7127732B880006E5B0 /* FirstViewController.m */; };
+		DA9BACB027732B8A0006E5B0 /* the04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7327732B880006E5B0 /* the04ViewController.m */; };
+		DA9BACB127732B8A0006E5B0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7427732B880006E5B0 /* ThirdViewController.m */; };
+		DA9BACB227732B8A0006E5B0 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7527732B880006E5B0 /* ChildViewController.swift */; };
+		DA9BACB327732B8A0006E5B0 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7627732B880006E5B0 /* ForthViewController.swift */; };
+		DA9BACB427732B8A0006E5B0 /* Pthread01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7827732B890006E5B0 /* Pthread01ViewController.m */; };
+		DA9BACB527732B8A0006E5B0 /* NSThread01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7A27732B890006E5B0 /* NSThread01ViewController.m */; };
+		DA9BACB627732B8A0006E5B0 /* NSThread03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7C27732B890006E5B0 /* NSThread03ViewController.m */; };
+		DA9BACB727732B8A0006E5B0 /* NSThread02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7F27732B890006E5B0 /* NSThread02ViewController.m */; };
+		DA9BACB827732B8A0006E5B0 /* JF01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8227732B890006E5B0 /* JF01ViewController.m */; };
+		DA9BACB927732B8A0006E5B0 /* JF03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8427732B890006E5B0 /* JF03ViewController.m */; };
+		DA9BACBA27732B8A0006E5B0 /* JF02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8627732B890006E5B0 /* JF02ViewController.m */; };
+		DA9BACBB27732B8A0006E5B0 /* Blocks01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8827732B890006E5B0 /* Blocks01ViewController.m */; };
+		DA9BACBC27732B8A0006E5B0 /* Blocks02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8B27732B890006E5B0 /* Blocks02ViewController.m */; };
+		DA9BACBD27732B8A0006E5B0 /* Runtime02ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8E27732B890006E5B0 /* Runtime02ViewController.m */; };
+		DA9BACBE27732B8A0006E5B0 /* Runtime01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC8F27732B890006E5B0 /* Runtime01ViewController.m */; };
+		DA9BACBF27732B8A0006E5B0 /* ObjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9227732B8A0006E5B0 /* ObjectViewController.m */; };
+		DA9BACC027732B8A0006E5B0 /* ObjectQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9527732B8A0006E5B0 /* ObjectQuestionViewController.m */; };
+		DA9BACC127732B8A0006E5B0 /* ArrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9827732B8A0006E5B0 /* ArrayViewController.m */; };
+		DA9BACC227732B8A0006E5B0 /* DictionaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9927732B8A0006E5B0 /* DictionaryViewController.m */; };
+		DA9BACC327732B8A0006E5B0 /* StringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9A27732B8A0006E5B0 /* StringViewController.m */; };
+		DA9BACC427732B8A0006E5B0 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC9C27732B8A0006E5B0 /* OtherViewController.m */; };
+		DA9BACC527732B8A0006E5B0 /* RunLoop01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACA027732B8A0006E5B0 /* RunLoop01ViewController.m */; };
+		DA9BACC727732C080006E5B0 /* OneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACC627732C080006E5B0 /* OneViewController.swift */; };
+		DA9BACC827732C860006E5B0 /* JFDemo-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */; };
+		DA9BACE827732D4C0006E5B0 /* http1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACCA27732D4B0006E5B0 /* http1ViewController.m */; };
+		DA9BACE927732D4C0006E5B0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACCB27732D4B0006E5B0 /* BaseViewController.m */; };
+		DA9BACEA27732D4C0006E5B0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACCC27732D4B0006E5B0 /* LoginViewController.m */; };
+		DA9BACEB27732D4C0006E5B0 /* NSURLConnectiongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACD327732D4C0006E5B0 /* NSURLConnectiongViewController.m */; };
+		DA9BACEC27732D4C0006E5B0 /* http2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACD427732D4C0006E5B0 /* http2ViewController.m */; };
+		DA9BACED27732D4C0006E5B0 /* http5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACD927732D4C0006E5B0 /* http5ViewController.m */; };
+		DA9BACEE27732D4C0006E5B0 /* http4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACDA27732D4C0006E5B0 /* http4ViewController.m */; };
+		DA9BACEF27732D4C0006E5B0 /* NSURLSessionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACDC27732D4C0006E5B0 /* NSURLSessionViewController.m */; };
+		DA9BACF027732D4C0006E5B0 /* http3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACDF27732D4C0006E5B0 /* http3ViewController.m */; };
+		DA9BACF127732D4C0006E5B0 /* XLEncrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACE127732D4C0006E5B0 /* XLEncrypt.m */; };
+		DA9BACF227732D4C0006E5B0 /* NSString+XL.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACE227732D4C0006E5B0 /* NSString+XL.m */; };
+		DA9BACF327732D4C0006E5B0 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACE727732D4C0006E5B0 /* GTMBase64.m */; };
+		DA9BACF527732D700006E5B0 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACF427732D700006E5B0 /* twoViewController.swift */; };
+		DA9BACF927732DEF0006E5B0 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACF827732DEF0006E5B0 /* OCViewController.m */; };
 		DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */; };
 		DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */; };
 		DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2E125E4E4E100E6AC1A /* ViewController.swift */; };
@@ -18,13 +70,112 @@
 		DAA8B2F925E6217F00E6AC1A /* JFMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2F825E6217F00E6AC1A /* JFMVVMViewController.m */; };
 		DAA8B2FC25E623DB00E6AC1A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2FB25E623DB00E6AC1A /* User.m */; };
 		DAA8B2FF25E6242B00E6AC1A /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2FE25E6242B00E6AC1A /* UserViewModel.m */; };
-		DAA8B30325E632AB00E6AC1A /* ReactiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7561A8D3F04DD3CA545578CE /* libPods-JFDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D6C3E0C82CD5CC8889B01B /* Pods-JFDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFDemo.debug.xcconfig"; path = "Target Support Files/Pods-JFDemo/Pods-JFDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		A5BDC09F132E8FC69017E1C6 /* Pods-JFDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFDemo.release.xcconfig"; path = "Target Support Files/Pods-JFDemo/Pods-JFDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DA9BAC5427732B880006E5B0 /* NSOperation04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation04ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5527732B880006E5B0 /* GCD04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD04ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5627732B880006E5B0 /* GCD03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD03ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5727732B880006E5B0 /* NSOperation03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation03ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5827732B880006E5B0 /* GCD02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5927732B880006E5B0 /* YSCOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSCOperation.m; sourceTree = "<group>"; };
+		DA9BAC5A27732B880006E5B0 /* NSOperation02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5B27732B880006E5B0 /* NSOperation05ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation05ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperation01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC5E27732B880006E5B0 /* GCD05ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD05ViewController.h; sourceTree = "<group>"; };
+		DA9BAC5F27732B880006E5B0 /* GCD_SlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD_SlowViewController.m; sourceTree = "<group>"; };
+		DA9BAC6027732B880006E5B0 /* GCD04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD04ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6127732B880006E5B0 /* NSOperation04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperation04ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6227732B880006E5B0 /* NSOperation03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperation03ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6327732B880006E5B0 /* GCD03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD03ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6427732B880006E5B0 /* NSOperation02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperation02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6527732B880006E5B0 /* GCD02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6627732B880006E5B0 /* YSCOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSCOperation.h; sourceTree = "<group>"; };
+		DA9BAC6727732B880006E5B0 /* GCD_SlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD_SlowViewController.h; sourceTree = "<group>"; };
+		DA9BAC6827732B880006E5B0 /* NSOperation01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC6927732B880006E5B0 /* GCD05ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCD05ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6A27732B880006E5B0 /* NSOperation05ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperation05ViewController.m; sourceTree = "<group>"; };
+		DA9BAC6B27732B880006E5B0 /* GCD01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC6D27732B880006E5B0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		DA9BAC6E27732B880006E5B0 /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		DA9BAC6F27732B880006E5B0 /* the04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = the04ViewController.h; sourceTree = "<group>"; };
+		DA9BAC7027732B880006E5B0 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		DA9BAC7127732B880006E5B0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		DA9BAC7227732B880006E5B0 /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		DA9BAC7327732B880006E5B0 /* the04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = the04ViewController.m; sourceTree = "<group>"; };
+		DA9BAC7427732B880006E5B0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		DA9BAC7527732B880006E5B0 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		DA9BAC7627732B880006E5B0 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
+		DA9BAC7827732B890006E5B0 /* Pthread01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pthread01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC7927732B890006E5B0 /* NSThread03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThread03ViewController.h; sourceTree = "<group>"; };
+		DA9BAC7A27732B890006E5B0 /* NSThread01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThread01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC7B27732B890006E5B0 /* NSThread02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThread02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC7C27732B890006E5B0 /* NSThread03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThread03ViewController.m; sourceTree = "<group>"; };
+		DA9BAC7D27732B890006E5B0 /* Pthread01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pthread01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC7E27732B890006E5B0 /* NSThread01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThread01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC7F27732B890006E5B0 /* NSThread02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThread02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8127732B890006E5B0 /* JF03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JF03ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8227732B890006E5B0 /* JF01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JF01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8327732B890006E5B0 /* JF02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JF02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8427732B890006E5B0 /* JF03ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JF03ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8527732B890006E5B0 /* JF01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JF01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8627732B890006E5B0 /* JF02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JF02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8827732B890006E5B0 /* Blocks01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8927732B890006E5B0 /* Blocks02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8A27732B890006E5B0 /* Blocks01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Blocks01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8B27732B890006E5B0 /* Blocks02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Blocks02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8D27732B890006E5B0 /* Runtime01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime01ViewController.h; sourceTree = "<group>"; };
+		DA9BAC8E27732B890006E5B0 /* Runtime02ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime02ViewController.m; sourceTree = "<group>"; };
+		DA9BAC8F27732B890006E5B0 /* Runtime01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runtime01ViewController.m; sourceTree = "<group>"; };
+		DA9BAC9027732B890006E5B0 /* Runtime02ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runtime02ViewController.h; sourceTree = "<group>"; };
+		DA9BAC9227732B8A0006E5B0 /* ObjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectViewController.m; sourceTree = "<group>"; };
+		DA9BAC9327732B8A0006E5B0 /* ObjectQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectQuestionViewController.h; sourceTree = "<group>"; };
+		DA9BAC9427732B8A0006E5B0 /* ObjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectViewController.h; sourceTree = "<group>"; };
+		DA9BAC9527732B8A0006E5B0 /* ObjectQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectQuestionViewController.m; sourceTree = "<group>"; };
+		DA9BAC9727732B8A0006E5B0 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		DA9BAC9827732B8A0006E5B0 /* ArrayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayViewController.m; sourceTree = "<group>"; };
+		DA9BAC9927732B8A0006E5B0 /* DictionaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryViewController.m; sourceTree = "<group>"; };
+		DA9BAC9A27732B8A0006E5B0 /* StringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringViewController.m; sourceTree = "<group>"; };
+		DA9BAC9B27732B8A0006E5B0 /* ArrayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayViewController.h; sourceTree = "<group>"; };
+		DA9BAC9C27732B8A0006E5B0 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		DA9BAC9D27732B8A0006E5B0 /* DictionaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryViewController.h; sourceTree = "<group>"; };
+		DA9BAC9E27732B8A0006E5B0 /* StringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringViewController.h; sourceTree = "<group>"; };
+		DA9BACA027732B8A0006E5B0 /* RunLoop01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoop01ViewController.m; sourceTree = "<group>"; };
+		DA9BACA127732B8A0006E5B0 /* RunLoop01ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoop01ViewController.h; sourceTree = "<group>"; };
+		DA9BACC627732C080006E5B0 /* OneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneViewController.swift; sourceTree = "<group>"; };
+		DA9BACCA27732D4B0006E5B0 /* http1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = http1ViewController.m; sourceTree = "<group>"; };
+		DA9BACCB27732D4B0006E5B0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DA9BACCC27732D4B0006E5B0 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		DA9BACCD27732D4B0006E5B0 /* http1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http1ViewController.h; sourceTree = "<group>"; };
+		DA9BACCE27732D4B0006E5B0 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		DA9BACCF27732D4B0006E5B0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DA9BACD227732D4C0006E5B0 /* http2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http2ViewController.h; sourceTree = "<group>"; };
+		DA9BACD327732D4C0006E5B0 /* NSURLConnectiongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectiongViewController.m; sourceTree = "<group>"; };
+		DA9BACD427732D4C0006E5B0 /* http2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = http2ViewController.m; sourceTree = "<group>"; };
+		DA9BACD527732D4C0006E5B0 /* NSURLConnectiongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectiongViewController.h; sourceTree = "<group>"; };
+		DA9BACD727732D4C0006E5B0 /* http5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http5ViewController.h; sourceTree = "<group>"; };
+		DA9BACD827732D4C0006E5B0 /* http4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http4ViewController.h; sourceTree = "<group>"; };
+		DA9BACD927732D4C0006E5B0 /* http5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = http5ViewController.m; sourceTree = "<group>"; };
+		DA9BACDA27732D4C0006E5B0 /* http4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = http4ViewController.m; sourceTree = "<group>"; };
+		DA9BACDC27732D4C0006E5B0 /* NSURLSessionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLSessionViewController.m; sourceTree = "<group>"; };
+		DA9BACDD27732D4C0006E5B0 /* http3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http3ViewController.h; sourceTree = "<group>"; };
+		DA9BACDE27732D4C0006E5B0 /* NSURLSessionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLSessionViewController.h; sourceTree = "<group>"; };
+		DA9BACDF27732D4C0006E5B0 /* http3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = http3ViewController.m; sourceTree = "<group>"; };
+		DA9BACE127732D4C0006E5B0 /* XLEncrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLEncrypt.m; sourceTree = "<group>"; };
+		DA9BACE227732D4C0006E5B0 /* NSString+XL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+XL.m"; sourceTree = "<group>"; };
+		DA9BACE327732D4C0006E5B0 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		DA9BACE427732D4C0006E5B0 /* XLEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLEncrypt.h; sourceTree = "<group>"; };
+		DA9BACE527732D4C0006E5B0 /* NSString+XL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+XL.h"; sourceTree = "<group>"; };
+		DA9BACE627732D4C0006E5B0 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		DA9BACE727732D4C0006E5B0 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		DA9BACF427732D700006E5B0 /* twoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
+		DA9BACF627732DD40006E5B0 /* XueLeTSHTTPS.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = XueLeTSHTTPS.cer; sourceTree = "<group>"; };
+		DA9BACF727732DEF0006E5B0 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		DA9BACF827732DEF0006E5B0 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		DAA8B2DA25E4E4E100E6AC1A /* JFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +193,6 @@
 		DAA8B2FB25E623DB00E6AC1A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		DAA8B2FD25E6242B00E6AC1A /* UserViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
 		DAA8B2FE25E6242B00E6AC1A /* UserViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
-		DAA8B30125E632AB00E6AC1A /* ReactiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactiveViewController.h; sourceTree = "<group>"; };
-		DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +216,210 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DA9BAC5327732B880006E5B0 /* GCD & NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC5427732B880006E5B0 /* NSOperation04ViewController.h */,
+				DA9BAC5527732B880006E5B0 /* GCD04ViewController.h */,
+				DA9BAC5627732B880006E5B0 /* GCD03ViewController.h */,
+				DA9BAC5727732B880006E5B0 /* NSOperation03ViewController.h */,
+				DA9BAC5827732B880006E5B0 /* GCD02ViewController.h */,
+				DA9BAC5927732B880006E5B0 /* YSCOperation.m */,
+				DA9BAC5A27732B880006E5B0 /* NSOperation02ViewController.h */,
+				DA9BAC5B27732B880006E5B0 /* NSOperation05ViewController.h */,
+				DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */,
+				DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */,
+				DA9BAC5E27732B880006E5B0 /* GCD05ViewController.h */,
+				DA9BAC5F27732B880006E5B0 /* GCD_SlowViewController.m */,
+				DA9BAC6027732B880006E5B0 /* GCD04ViewController.m */,
+				DA9BAC6127732B880006E5B0 /* NSOperation04ViewController.m */,
+				DA9BAC6227732B880006E5B0 /* NSOperation03ViewController.m */,
+				DA9BAC6327732B880006E5B0 /* GCD03ViewController.m */,
+				DA9BAC6427732B880006E5B0 /* NSOperation02ViewController.m */,
+				DA9BAC6527732B880006E5B0 /* GCD02ViewController.m */,
+				DA9BAC6627732B880006E5B0 /* YSCOperation.h */,
+				DA9BAC6727732B880006E5B0 /* GCD_SlowViewController.h */,
+				DA9BAC6827732B880006E5B0 /* NSOperation01ViewController.h */,
+				DA9BAC6927732B880006E5B0 /* GCD05ViewController.m */,
+				DA9BAC6A27732B880006E5B0 /* NSOperation05ViewController.m */,
+				DA9BAC6B27732B880006E5B0 /* GCD01ViewController.h */,
+			);
+			path = "GCD & NSOperation";
+			sourceTree = "<group>";
+		};
+		DA9BAC6C27732B880006E5B0 /* 修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC6D27732B880006E5B0 /* FirstViewController.h */,
+				DA9BAC7127732B880006E5B0 /* FirstViewController.m */,
+				DA9BAC6E27732B880006E5B0 /* SecViewController.m */,
+				DA9BAC6F27732B880006E5B0 /* the04ViewController.h */,
+				DA9BAC7027732B880006E5B0 /* ThirdViewController.h */,
+				DA9BAC7227732B880006E5B0 /* SecViewController.h */,
+				DA9BAC7327732B880006E5B0 /* the04ViewController.m */,
+				DA9BAC7427732B880006E5B0 /* ThirdViewController.m */,
+				DA9BAC7527732B880006E5B0 /* ChildViewController.swift */,
+				DA9BAC7627732B880006E5B0 /* ForthViewController.swift */,
+			);
+			path = "修饰符";
+			sourceTree = "<group>";
+		};
+		DA9BAC7727732B890006E5B0 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC7827732B890006E5B0 /* Pthread01ViewController.m */,
+				DA9BAC7927732B890006E5B0 /* NSThread03ViewController.h */,
+				DA9BAC7A27732B890006E5B0 /* NSThread01ViewController.m */,
+				DA9BAC7B27732B890006E5B0 /* NSThread02ViewController.h */,
+				DA9BAC7C27732B890006E5B0 /* NSThread03ViewController.m */,
+				DA9BAC7D27732B890006E5B0 /* Pthread01ViewController.h */,
+				DA9BAC7E27732B890006E5B0 /* NSThread01ViewController.h */,
+				DA9BAC7F27732B890006E5B0 /* NSThread02ViewController.m */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		DA9BAC8027732B890006E5B0 /* 关键字 */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC8127732B890006E5B0 /* JF03ViewController.h */,
+				DA9BAC8227732B890006E5B0 /* JF01ViewController.m */,
+				DA9BAC8327732B890006E5B0 /* JF02ViewController.h */,
+				DA9BAC8427732B890006E5B0 /* JF03ViewController.m */,
+				DA9BAC8527732B890006E5B0 /* JF01ViewController.h */,
+				DA9BAC8627732B890006E5B0 /* JF02ViewController.m */,
+			);
+			path = "关键字";
+			sourceTree = "<group>";
+		};
+		DA9BAC8727732B890006E5B0 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC8827732B890006E5B0 /* Blocks01ViewController.m */,
+				DA9BAC8927732B890006E5B0 /* Blocks02ViewController.h */,
+				DA9BAC8A27732B890006E5B0 /* Blocks01ViewController.h */,
+				DA9BAC8B27732B890006E5B0 /* Blocks02ViewController.m */,
+			);
+			path = Blocks;
+			sourceTree = "<group>";
+		};
+		DA9BAC8C27732B890006E5B0 /* Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC8D27732B890006E5B0 /* Runtime01ViewController.h */,
+				DA9BAC8E27732B890006E5B0 /* Runtime02ViewController.m */,
+				DA9BAC8F27732B890006E5B0 /* Runtime01ViewController.m */,
+				DA9BAC9027732B890006E5B0 /* Runtime02ViewController.h */,
+			);
+			path = Runtime;
+			sourceTree = "<group>";
+		};
+		DA9BAC9127732B8A0006E5B0 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC9227732B8A0006E5B0 /* ObjectViewController.m */,
+				DA9BAC9327732B8A0006E5B0 /* ObjectQuestionViewController.h */,
+				DA9BAC9427732B8A0006E5B0 /* ObjectViewController.h */,
+				DA9BAC9527732B8A0006E5B0 /* ObjectQuestionViewController.m */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		DA9BAC9627732B8A0006E5B0 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC9727732B8A0006E5B0 /* OtherViewController.h */,
+				DA9BAC9827732B8A0006E5B0 /* ArrayViewController.m */,
+				DA9BAC9927732B8A0006E5B0 /* DictionaryViewController.m */,
+				DA9BAC9A27732B8A0006E5B0 /* StringViewController.m */,
+				DA9BAC9B27732B8A0006E5B0 /* ArrayViewController.h */,
+				DA9BAC9C27732B8A0006E5B0 /* OtherViewController.m */,
+				DA9BAC9D27732B8A0006E5B0 /* DictionaryViewController.h */,
+				DA9BAC9E27732B8A0006E5B0 /* StringViewController.h */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		DA9BAC9F27732B8A0006E5B0 /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACA027732B8A0006E5B0 /* RunLoop01ViewController.m */,
+				DA9BACA127732B8A0006E5B0 /* RunLoop01ViewController.h */,
+			);
+			path = RunLoop;
+			sourceTree = "<group>";
+		};
+		DA9BACD027732D4C0006E5B0 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACFA27732EB20006E5B0 /* Demo */,
+				DA9BACD127732D4C0006E5B0 /* NSURLConnectiong */,
+				DA9BACD627732D4C0006E5B0 /* AFNetworking */,
+				DA9BACDB27732D4C0006E5B0 /* NSURLSession */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		DA9BACD127732D4C0006E5B0 /* NSURLConnectiong */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACD227732D4C0006E5B0 /* http2ViewController.h */,
+				DA9BACD327732D4C0006E5B0 /* NSURLConnectiongViewController.m */,
+				DA9BACD427732D4C0006E5B0 /* http2ViewController.m */,
+				DA9BACD527732D4C0006E5B0 /* NSURLConnectiongViewController.h */,
+			);
+			path = NSURLConnectiong;
+			sourceTree = "<group>";
+		};
+		DA9BACD627732D4C0006E5B0 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACD727732D4C0006E5B0 /* http5ViewController.h */,
+				DA9BACD827732D4C0006E5B0 /* http4ViewController.h */,
+				DA9BACD927732D4C0006E5B0 /* http5ViewController.m */,
+				DA9BACDA27732D4C0006E5B0 /* http4ViewController.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		DA9BACDB27732D4C0006E5B0 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACDC27732D4C0006E5B0 /* NSURLSessionViewController.m */,
+				DA9BACDD27732D4C0006E5B0 /* http3ViewController.h */,
+				DA9BACDE27732D4C0006E5B0 /* NSURLSessionViewController.h */,
+				DA9BACDF27732D4C0006E5B0 /* http3ViewController.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
+		DA9BACE027732D4C0006E5B0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACE127732D4C0006E5B0 /* XLEncrypt.m */,
+				DA9BACE227732D4C0006E5B0 /* NSString+XL.m */,
+				DA9BACE327732D4C0006E5B0 /* GTMBase64.h */,
+				DA9BACE427732D4C0006E5B0 /* XLEncrypt.h */,
+				DA9BACE527732D4C0006E5B0 /* NSString+XL.h */,
+				DA9BACE627732D4C0006E5B0 /* GTMDefines.h */,
+				DA9BACE727732D4C0006E5B0 /* GTMBase64.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		DA9BACFA27732EB20006E5B0 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BACCF27732D4B0006E5B0 /* BaseViewController.h */,
+				DA9BACCB27732D4B0006E5B0 /* BaseViewController.m */,
+				DA9BACCA27732D4B0006E5B0 /* http1ViewController.m */,
+				DA9BACCD27732D4B0006E5B0 /* http1ViewController.h */,
+				DA9BACCC27732D4B0006E5B0 /* LoginViewController.m */,
+				DA9BACCE27732D4B0006E5B0 /* LoginViewController.h */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
 		DAA8B2D125E4E4E100E6AC1A = {
 			isa = PBXGroup;
 			children = (
@@ -88,7 +441,16 @@
 		DAA8B2DC25E4E4E100E6AC1A /* JFDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DAA8B30025E6328700E6AC1A /* Reactive */,
+				DA9BACD027732D4C0006E5B0 /* HTTP */,
+				DA9BAC6C27732B880006E5B0 /* 修饰符 */,
+				DA9BAC8027732B890006E5B0 /* 关键字 */,
+				DA9BAC8727732B890006E5B0 /* Blocks */,
+				DA9BAC9127732B8A0006E5B0 /* Class */,
+				DA9BAC9627732B8A0006E5B0 /* Foundation */,
+				DA9BAC5327732B880006E5B0 /* GCD & NSOperation */,
+				DA9BAC9F27732B8A0006E5B0 /* RunLoop */,
+				DA9BAC8C27732B890006E5B0 /* Runtime */,
+				DA9BAC7727732B890006E5B0 /* Thread */,
 				DAA8B2F225E4EAF100E6AC1A /* Test */,
 				DAA8B2F125E4EA7D00E6AC1A /* MVVM */,
 				DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */,
@@ -97,7 +459,9 @@
 				DAA8B2E325E4E4E100E6AC1A /* Main.storyboard */,
 				DAA8B2E625E4E4E600E6AC1A /* Assets.xcassets */,
 				DAA8B2E825E4E4E600E6AC1A /* LaunchScreen.storyboard */,
+				DA9BACF627732DD40006E5B0 /* XueLeTSHTTPS.cer */,
 				DAA8B2EB25E4E4E600E6AC1A /* Info.plist */,
+				DA9BACE027732D4C0006E5B0 /* Lib */,
 			);
 			path = JFDemo;
 			sourceTree = "<group>";
@@ -118,20 +482,15 @@
 		DAA8B2F225E4EAF100E6AC1A /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				DA9BACF727732DEF0006E5B0 /* OCViewController.h */,
+				DA9BACF827732DEF0006E5B0 /* OCViewController.m */,
+				DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */,
 				DAA8B2F425E4EB1100E6AC1A /* TestViewController.h */,
 				DAA8B2F525E4EB1100E6AC1A /* TestViewController.m */,
-				DAA8B2F325E4EB1100E6AC1A /* JFDemo-Bridging-Header.h */,
+				DA9BACC627732C080006E5B0 /* OneViewController.swift */,
+				DA9BACF427732D700006E5B0 /* twoViewController.swift */,
 			);
 			path = Test;
-			sourceTree = "<group>";
-		};
-		DAA8B30025E6328700E6AC1A /* Reactive */ = {
-			isa = PBXGroup;
-			children = (
-				DAA8B30125E632AB00E6AC1A /* ReactiveViewController.h */,
-				DAA8B30225E632AB00E6AC1A /* ReactiveViewController.m */,
-			);
-			path = Reactive;
 			sourceTree = "<group>";
 		};
 		E226D77617881578C3D065C9 /* Frameworks */ = {
@@ -240,14 +599,65 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA9BACC827732C860006E5B0 /* JFDemo-Bridging-Header.h in Sources */,
+				DA9BACF327732D4C0006E5B0 /* GTMBase64.m in Sources */,
+				DA9BACBB27732B8A0006E5B0 /* Blocks01ViewController.m in Sources */,
+				DA9BACBA27732B8A0006E5B0 /* JF02ViewController.m in Sources */,
+				DA9BACC227732B8A0006E5B0 /* DictionaryViewController.m in Sources */,
 				DAA8B2FF25E6242B00E6AC1A /* UserViewModel.m in Sources */,
+				DA9BACA627732B8A0006E5B0 /* GCD04ViewController.m in Sources */,
+				DA9BACBE27732B8A0006E5B0 /* Runtime01ViewController.m in Sources */,
+				DA9BACEE27732D4C0006E5B0 /* http4ViewController.m in Sources */,
+				DA9BACC327732B8A0006E5B0 /* StringViewController.m in Sources */,
+				DA9BACEA27732D4C0006E5B0 /* LoginViewController.m in Sources */,
+				DA9BACB427732B8A0006E5B0 /* Pthread01ViewController.m in Sources */,
+				DA9BACB827732B8A0006E5B0 /* JF01ViewController.m in Sources */,
+				DA9BACED27732D4C0006E5B0 /* http5ViewController.m in Sources */,
+				DA9BACB127732B8A0006E5B0 /* ThirdViewController.m in Sources */,
+				DA9BACE927732D4C0006E5B0 /* BaseViewController.m in Sources */,
+				DA9BACEF27732D4C0006E5B0 /* NSURLSessionViewController.m in Sources */,
+				DA9BACA227732B8A0006E5B0 /* YSCOperation.m in Sources */,
+				DA9BACE827732D4C0006E5B0 /* http1ViewController.m in Sources */,
+				DA9BACAB27732B8A0006E5B0 /* GCD02ViewController.m in Sources */,
 				DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */,
 				DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */,
+				DA9BACB927732B8A0006E5B0 /* JF03ViewController.m in Sources */,
+				DA9BACB527732B8A0006E5B0 /* NSThread01ViewController.m in Sources */,
+				DA9BACA927732B8A0006E5B0 /* GCD03ViewController.m in Sources */,
+				DA9BACA527732B8A0006E5B0 /* GCD_SlowViewController.m in Sources */,
+				DA9BACAE27732B8A0006E5B0 /* SecViewController.m in Sources */,
+				DA9BACA827732B8A0006E5B0 /* NSOperation03ViewController.m in Sources */,
+				DA9BACB027732B8A0006E5B0 /* the04ViewController.m in Sources */,
+				DA9BACEB27732D4C0006E5B0 /* NSURLConnectiongViewController.m in Sources */,
+				DA9BACBF27732B8A0006E5B0 /* ObjectViewController.m in Sources */,
 				DAA8B2FC25E623DB00E6AC1A /* User.m in Sources */,
+				DA9BACF127732D4C0006E5B0 /* XLEncrypt.m in Sources */,
 				DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */,
-				DAA8B30325E632AB00E6AC1A /* ReactiveViewController.m in Sources */,
+				DA9BACC127732B8A0006E5B0 /* ArrayViewController.m in Sources */,
+				DA9BACB627732B8A0006E5B0 /* NSThread03ViewController.m in Sources */,
+				DA9BACC027732B8A0006E5B0 /* ObjectQuestionViewController.m in Sources */,
+				DA9BACA427732B8A0006E5B0 /* NSOperation01ViewController.m in Sources */,
+				DA9BACB727732B8A0006E5B0 /* NSThread02ViewController.m in Sources */,
+				DA9BACAA27732B8A0006E5B0 /* NSOperation02ViewController.m in Sources */,
+				DA9BACF227732D4C0006E5B0 /* NSString+XL.m in Sources */,
+				DA9BACA327732B8A0006E5B0 /* GCD01ViewController.m in Sources */,
+				DA9BACC727732C080006E5B0 /* OneViewController.swift in Sources */,
+				DA9BACF927732DEF0006E5B0 /* OCViewController.m in Sources */,
+				DA9BACF527732D700006E5B0 /* twoViewController.swift in Sources */,
 				DAA8B2F925E6217F00E6AC1A /* JFMVVMViewController.m in Sources */,
+				DA9BACAF27732B8A0006E5B0 /* FirstViewController.m in Sources */,
+				DA9BACF027732D4C0006E5B0 /* http3ViewController.m in Sources */,
+				DA9BACC527732B8A0006E5B0 /* RunLoop01ViewController.m in Sources */,
+				DA9BACC427732B8A0006E5B0 /* OtherViewController.m in Sources */,
+				DA9BACEC27732D4C0006E5B0 /* http2ViewController.m in Sources */,
+				DA9BACA727732B8A0006E5B0 /* NSOperation04ViewController.m in Sources */,
+				DA9BACBC27732B8A0006E5B0 /* Blocks02ViewController.m in Sources */,
+				DA9BACAC27732B8A0006E5B0 /* GCD05ViewController.m in Sources */,
+				DA9BACBD27732B8A0006E5B0 /* Runtime02ViewController.m in Sources */,
 				DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */,
+				DA9BACAD27732B8A0006E5B0 /* NSOperation05ViewController.m in Sources */,
+				DA9BACB227732B8A0006E5B0 /* ChildViewController.swift in Sources */,
+				DA9BACB327732B8A0006E5B0 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
