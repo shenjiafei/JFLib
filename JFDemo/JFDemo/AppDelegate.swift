@@ -14,7 +14,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+       
+//           #if DEBUG
+//           //iOS
+//           [[NSBundle bundleWithPath:@"/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle"] load];
+//          //同时还支持tvOS和MacOS，配置时只需要在/Applications/InjectionIII.app/Contents/Resources/目录下找到对应的bundle文件,替换路径即可
+//            #endif
+        
+        #if DEBUG
+        do{
+            let injectionBundle = Bundle.init(path: "/Applications/InjectionIII.app/Contents/Resources/iOSInjection.bundle")
+            if let bundle = injectionBundle{
+                try bundle.loadAndReturnError()
+            }else{
+                 debugPrint("Injection注入失败,未能检测到Injection")
+            }
+            
+         }catch{
+             debugPrint("Injection注入失败\(error)")
+         }
+         #endif
+
         return true
     }
 

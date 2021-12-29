@@ -6,27 +6,43 @@
 //  Copyright © 2021 shenjiafei. All rights reserved.
 //
 
+//Injection注入
+
 #import "TestViewController.h"
 
 @interface TestViewController ()
+
+@property (nonatomic, weak) UIView *sView;
+@property(nonatomic,weak)UIButton *testButton;
 
 @end
 
 @implementation TestViewController
 
+- (void)loadView{
+    [super loadView];
+    self.view.backgroundColor = UIColor.whiteColor;
+    [self testButton];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = UIColor.grayColor;
+    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(20, 100, 200,100)];
+    view.layer.borderWidth = 1;
+    [self.view addSubview:view];
+    self.sView = view;
+    
+    UIView *view2 = [[UIView alloc]initWithFrame:CGRectMake(10, 10, 100,50)];
+    view2.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    view2.backgroundColor = UIColor.grayColor;
+    [view addSubview:view2];
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)injected
+{
+    [self.sView setFrame:CGRectMake(20, 100, 200, 100)];
+    
 }
-*/
 
 @end

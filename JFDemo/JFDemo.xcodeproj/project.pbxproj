@@ -25,7 +25,6 @@
 		DA9BACB027732B8A0006E5B0 /* the04ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7327732B880006E5B0 /* the04ViewController.m */; };
 		DA9BACB127732B8A0006E5B0 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7427732B880006E5B0 /* ThirdViewController.m */; };
 		DA9BACB227732B8A0006E5B0 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7527732B880006E5B0 /* ChildViewController.swift */; };
-		DA9BACB327732B8A0006E5B0 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7627732B880006E5B0 /* ForthViewController.swift */; };
 		DA9BACB427732B8A0006E5B0 /* Pthread01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7827732B890006E5B0 /* Pthread01ViewController.m */; };
 		DA9BACB527732B8A0006E5B0 /* NSThread01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7A27732B890006E5B0 /* NSThread01ViewController.m */; };
 		DA9BACB627732B8A0006E5B0 /* NSThread03ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC7C27732B890006E5B0 /* NSThread03ViewController.m */; };
@@ -60,6 +59,7 @@
 		DA9BACF327732D4C0006E5B0 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACE727732D4C0006E5B0 /* GTMBase64.m */; };
 		DA9BACF527732D700006E5B0 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACF427732D700006E5B0 /* twoViewController.swift */; };
 		DA9BACF927732DEF0006E5B0 /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BACF827732DEF0006E5B0 /* OCViewController.m */; };
+		DA9BAD0127740DAC0006E5B0 /* JFGCDSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAD0027740DAC0006E5B0 /* JFGCDSwiftViewController.swift */; };
 		DAA8B2DE25E4E4E100E6AC1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */; };
 		DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */; };
 		DAA8B2E225E4E4E100E6AC1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA8B2E125E4E4E100E6AC1A /* ViewController.swift */; };
@@ -109,7 +109,6 @@
 		DA9BAC7327732B880006E5B0 /* the04ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = the04ViewController.m; sourceTree = "<group>"; };
 		DA9BAC7427732B880006E5B0 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		DA9BAC7527732B880006E5B0 /* ChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
-		DA9BAC7627732B880006E5B0 /* ForthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 		DA9BAC7827732B890006E5B0 /* Pthread01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pthread01ViewController.m; sourceTree = "<group>"; };
 		DA9BAC7927732B890006E5B0 /* NSThread03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThread03ViewController.h; sourceTree = "<group>"; };
 		DA9BAC7A27732B890006E5B0 /* NSThread01ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThread01ViewController.m; sourceTree = "<group>"; };
@@ -176,6 +175,9 @@
 		DA9BACF627732DD40006E5B0 /* XueLeTSHTTPS.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = XueLeTSHTTPS.cer; sourceTree = "<group>"; };
 		DA9BACF727732DEF0006E5B0 /* OCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
 		DA9BACF827732DEF0006E5B0 /* OCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		DA9BACFD27740D9C0006E5B0 /* JFGCDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFGCDTestViewController.h; sourceTree = "<group>"; };
+		DA9BACFE27740D9C0006E5B0 /* JFGCDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFGCDTestViewController.m; sourceTree = "<group>"; };
+		DA9BAD0027740DAC0006E5B0 /* JFGCDSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JFGCDSwiftViewController.swift; sourceTree = "<group>"; };
 		DAA8B2DA25E4E4E100E6AC1A /* JFDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JFDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAA8B2DD25E4E4E100E6AC1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAA8B2DF25E4E4E100E6AC1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -219,30 +221,8 @@
 		DA9BAC5327732B880006E5B0 /* GCD & NSOperation */ = {
 			isa = PBXGroup;
 			children = (
-				DA9BAC5427732B880006E5B0 /* NSOperation04ViewController.h */,
-				DA9BAC5527732B880006E5B0 /* GCD04ViewController.h */,
-				DA9BAC5627732B880006E5B0 /* GCD03ViewController.h */,
-				DA9BAC5727732B880006E5B0 /* NSOperation03ViewController.h */,
-				DA9BAC5827732B880006E5B0 /* GCD02ViewController.h */,
-				DA9BAC5927732B880006E5B0 /* YSCOperation.m */,
-				DA9BAC5A27732B880006E5B0 /* NSOperation02ViewController.h */,
-				DA9BAC5B27732B880006E5B0 /* NSOperation05ViewController.h */,
-				DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */,
-				DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */,
-				DA9BAC5E27732B880006E5B0 /* GCD05ViewController.h */,
-				DA9BAC5F27732B880006E5B0 /* GCD_SlowViewController.m */,
-				DA9BAC6027732B880006E5B0 /* GCD04ViewController.m */,
-				DA9BAC6127732B880006E5B0 /* NSOperation04ViewController.m */,
-				DA9BAC6227732B880006E5B0 /* NSOperation03ViewController.m */,
-				DA9BAC6327732B880006E5B0 /* GCD03ViewController.m */,
-				DA9BAC6427732B880006E5B0 /* NSOperation02ViewController.m */,
-				DA9BAC6527732B880006E5B0 /* GCD02ViewController.m */,
-				DA9BAC6627732B880006E5B0 /* YSCOperation.h */,
-				DA9BAC6727732B880006E5B0 /* GCD_SlowViewController.h */,
-				DA9BAC6827732B880006E5B0 /* NSOperation01ViewController.h */,
-				DA9BAC6927732B880006E5B0 /* GCD05ViewController.m */,
-				DA9BAC6A27732B880006E5B0 /* NSOperation05ViewController.m */,
-				DA9BAC6B27732B880006E5B0 /* GCD01ViewController.h */,
+				DA9BACFC27740D830006E5B0 /* NSOperation */,
+				DA9BACFB27740D760006E5B0 /* GCD */,
 			);
 			path = "GCD & NSOperation";
 			sourceTree = "<group>";
@@ -252,14 +232,13 @@
 			children = (
 				DA9BAC6D27732B880006E5B0 /* FirstViewController.h */,
 				DA9BAC7127732B880006E5B0 /* FirstViewController.m */,
-				DA9BAC6E27732B880006E5B0 /* SecViewController.m */,
-				DA9BAC6F27732B880006E5B0 /* the04ViewController.h */,
-				DA9BAC7027732B880006E5B0 /* ThirdViewController.h */,
 				DA9BAC7227732B880006E5B0 /* SecViewController.h */,
-				DA9BAC7327732B880006E5B0 /* the04ViewController.m */,
+				DA9BAC6E27732B880006E5B0 /* SecViewController.m */,
+				DA9BAC7027732B880006E5B0 /* ThirdViewController.h */,
 				DA9BAC7427732B880006E5B0 /* ThirdViewController.m */,
+				DA9BAC7327732B880006E5B0 /* the04ViewController.m */,
+				DA9BAC6F27732B880006E5B0 /* the04ViewController.h */,
 				DA9BAC7527732B880006E5B0 /* ChildViewController.swift */,
-				DA9BAC7627732B880006E5B0 /* ForthViewController.swift */,
 			);
 			path = "修饰符";
 			sourceTree = "<group>";
@@ -282,10 +261,10 @@
 		DA9BAC8027732B890006E5B0 /* 关键字 */ = {
 			isa = PBXGroup;
 			children = (
-				DA9BAC8127732B890006E5B0 /* JF03ViewController.h */,
 				DA9BAC8227732B890006E5B0 /* JF01ViewController.m */,
 				DA9BAC8327732B890006E5B0 /* JF02ViewController.h */,
 				DA9BAC8427732B890006E5B0 /* JF03ViewController.m */,
+				DA9BAC8127732B890006E5B0 /* JF03ViewController.h */,
 				DA9BAC8527732B890006E5B0 /* JF01ViewController.h */,
 				DA9BAC8627732B890006E5B0 /* JF02ViewController.m */,
 			);
@@ -317,9 +296,9 @@
 		DA9BAC9127732B8A0006E5B0 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				DA9BAC9427732B8A0006E5B0 /* ObjectViewController.h */,
 				DA9BAC9227732B8A0006E5B0 /* ObjectViewController.m */,
 				DA9BAC9327732B8A0006E5B0 /* ObjectQuestionViewController.h */,
-				DA9BAC9427732B8A0006E5B0 /* ObjectViewController.h */,
 				DA9BAC9527732B8A0006E5B0 /* ObjectQuestionViewController.m */,
 			);
 			path = Class;
@@ -418,6 +397,47 @@
 				DA9BACCE27732D4B0006E5B0 /* LoginViewController.h */,
 			);
 			path = Demo;
+			sourceTree = "<group>";
+		};
+		DA9BACFB27740D760006E5B0 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAD0027740DAC0006E5B0 /* JFGCDSwiftViewController.swift */,
+				DA9BACFD27740D9C0006E5B0 /* JFGCDTestViewController.h */,
+				DA9BACFE27740D9C0006E5B0 /* JFGCDTestViewController.m */,
+				DA9BAC5527732B880006E5B0 /* GCD04ViewController.h */,
+				DA9BAC5627732B880006E5B0 /* GCD03ViewController.h */,
+				DA9BAC5827732B880006E5B0 /* GCD02ViewController.h */,
+				DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */,
+				DA9BAC5E27732B880006E5B0 /* GCD05ViewController.h */,
+				DA9BAC6027732B880006E5B0 /* GCD04ViewController.m */,
+				DA9BAC6327732B880006E5B0 /* GCD03ViewController.m */,
+				DA9BAC6527732B880006E5B0 /* GCD02ViewController.m */,
+				DA9BAC5927732B880006E5B0 /* YSCOperation.m */,
+				DA9BAC6627732B880006E5B0 /* YSCOperation.h */,
+				DA9BAC5F27732B880006E5B0 /* GCD_SlowViewController.m */,
+				DA9BAC6727732B880006E5B0 /* GCD_SlowViewController.h */,
+				DA9BAC6927732B880006E5B0 /* GCD05ViewController.m */,
+				DA9BAC6B27732B880006E5B0 /* GCD01ViewController.h */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		DA9BACFC27740D830006E5B0 /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */,
+				DA9BAC5A27732B880006E5B0 /* NSOperation02ViewController.h */,
+				DA9BAC5427732B880006E5B0 /* NSOperation04ViewController.h */,
+				DA9BAC5727732B880006E5B0 /* NSOperation03ViewController.h */,
+				DA9BAC5B27732B880006E5B0 /* NSOperation05ViewController.h */,
+				DA9BAC6127732B880006E5B0 /* NSOperation04ViewController.m */,
+				DA9BAC6227732B880006E5B0 /* NSOperation03ViewController.m */,
+				DA9BAC6427732B880006E5B0 /* NSOperation02ViewController.m */,
+				DA9BAC6827732B880006E5B0 /* NSOperation01ViewController.h */,
+				DA9BAC6A27732B880006E5B0 /* NSOperation05ViewController.m */,
+			);
+			path = NSOperation;
 			sourceTree = "<group>";
 		};
 		DAA8B2D125E4E4E100E6AC1A = {
@@ -603,6 +623,7 @@
 				DA9BACF327732D4C0006E5B0 /* GTMBase64.m in Sources */,
 				DA9BACBB27732B8A0006E5B0 /* Blocks01ViewController.m in Sources */,
 				DA9BACBA27732B8A0006E5B0 /* JF02ViewController.m in Sources */,
+				DA9BAD0127740DAC0006E5B0 /* JFGCDSwiftViewController.swift in Sources */,
 				DA9BACC227732B8A0006E5B0 /* DictionaryViewController.m in Sources */,
 				DAA8B2FF25E6242B00E6AC1A /* UserViewModel.m in Sources */,
 				DA9BACA627732B8A0006E5B0 /* GCD04ViewController.m in Sources */,
@@ -657,7 +678,6 @@
 				DAA8B2E025E4E4E100E6AC1A /* SceneDelegate.swift in Sources */,
 				DA9BACAD27732B8A0006E5B0 /* NSOperation05ViewController.m in Sources */,
 				DA9BACB227732B8A0006E5B0 /* ChildViewController.swift in Sources */,
-				DA9BACB327732B8A0006E5B0 /* ForthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
