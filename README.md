@@ -4,3 +4,6 @@
 
 # DesignPatterns
 各种设计模式
+
+#AlgorithmDemo
+算法示例
