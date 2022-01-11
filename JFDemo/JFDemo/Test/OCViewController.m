@@ -6,6 +6,7 @@
 //
 
 #import "OCViewController.h"
+#import <Masonry.h>"
 
 @interface OCViewController ()<NSURLSessionDelegate,NSURLSessionTaskDelegate>
 
@@ -16,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    UIView *view = UIView.new;
+    
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.equalTo(self.view.mas_left);
+    }];
+    
 }
 
 

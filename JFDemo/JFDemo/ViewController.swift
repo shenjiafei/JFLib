@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.isHidden = false
+        
+//        let cal = JFCalculator.init()
+//        cal.add(40.0)
+        
     }
 
     //extension 方式实现

@@ -9,6 +9,7 @@
 //Injection注入
 
 #import "TestViewController.h"
+#import "NSTimerViewController.h"
 
 @interface TestViewController ()
 
@@ -43,6 +44,13 @@
 {
     [self.sView setFrame:CGRectMake(20, 100, 200, 100)];
     
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [super touchesBegan:touches withEvent:event];
+
+    NSTimerViewController *vc = [[NSTimerViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 @end
