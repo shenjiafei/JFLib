@@ -12,3 +12,6 @@
 #import "NSTimerViewController.h"
 #import "LoginViewController.h"
 #import "JFCalculator.h"
+#import "FZStringOCViewController.h"
+#import "OCFunViewController.h"
+#import "TwoNumbersAddViewController.h"

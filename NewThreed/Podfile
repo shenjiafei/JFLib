@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'NewThreed' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for NewThreed
+   pod 'Alamofire'
+   pod 'SnapKit'
+   pod 'Kingfisher'
+
+  target 'NewThreedTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'NewThreedUITests' do
+    # Pods for testing
+   
+  end
+
+end

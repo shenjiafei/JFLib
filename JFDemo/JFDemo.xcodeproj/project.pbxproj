@@ -13,6 +13,10 @@
 		DA115525278C577F001AF07F /* ChainTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA115524278C577F001AF07F /* ChainTestViewController.m */; };
 		DA115527278D124E001AF07F /* Swift01ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA115526278D124E001AF07F /* Swift01ViewController.swift */; };
 		DA115529278D1BFA001AF07F /* SwiftOverrideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA115528278D1BFA001AF07F /* SwiftOverrideViewController.swift */; };
+		DA8D3FD1279023C500657F85 /* FZStringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8D3FD0279023C400657F85 /* FZStringViewController.swift */; };
+		DA8D3FD42790275400657F85 /* FZStringOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8D3FD32790275400657F85 /* FZStringOCViewController.m */; };
+		DA8D3FD7279122F600657F85 /* OCFunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8D3FD6279122F600657F85 /* OCFunViewController.m */; };
+		DA8D3FDA2795511400657F85 /* TwoNumbersAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8D3FD92795511400657F85 /* TwoNumbersAddViewController.m */; };
 		DA9BACA227732B8A0006E5B0 /* YSCOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5927732B880006E5B0 /* YSCOperation.m */; };
 		DA9BACA327732B8A0006E5B0 /* GCD01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5C27732B880006E5B0 /* GCD01ViewController.m */; };
 		DA9BACA427732B8A0006E5B0 /* NSOperation01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA9BAC5D27732B880006E5B0 /* NSOperation01ViewController.m */; };
@@ -91,6 +95,13 @@
 		DA115524278C577F001AF07F /* ChainTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainTestViewController.m; sourceTree = "<group>"; };
 		DA115526278D124E001AF07F /* Swift01ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift01ViewController.swift; sourceTree = "<group>"; };
 		DA115528278D1BFA001AF07F /* SwiftOverrideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOverrideViewController.swift; sourceTree = "<group>"; };
+		DA8D3FD0279023C400657F85 /* FZStringViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FZStringViewController.swift; sourceTree = "<group>"; };
+		DA8D3FD22790275400657F85 /* FZStringOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZStringOCViewController.h; sourceTree = "<group>"; };
+		DA8D3FD32790275400657F85 /* FZStringOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZStringOCViewController.m; sourceTree = "<group>"; };
+		DA8D3FD5279122F600657F85 /* OCFunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCFunViewController.h; sourceTree = "<group>"; };
+		DA8D3FD6279122F600657F85 /* OCFunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCFunViewController.m; sourceTree = "<group>"; };
+		DA8D3FD82795511400657F85 /* TwoNumbersAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoNumbersAddViewController.h; sourceTree = "<group>"; };
+		DA8D3FD92795511400657F85 /* TwoNumbersAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoNumbersAddViewController.m; sourceTree = "<group>"; };
 		DA9BAC5427732B880006E5B0 /* NSOperation04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperation04ViewController.h; sourceTree = "<group>"; };
 		DA9BAC5527732B880006E5B0 /* GCD04ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD04ViewController.h; sourceTree = "<group>"; };
 		DA9BAC5627732B880006E5B0 /* GCD03ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD03ViewController.h; sourceTree = "<group>"; };
@@ -497,6 +508,13 @@
 		DA9BAD11277E97770006E5B0 /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
+				DA8D3FD0279023C400657F85 /* FZStringViewController.swift */,
+				DA8D3FD22790275400657F85 /* FZStringOCViewController.h */,
+				DA8D3FD32790275400657F85 /* FZStringOCViewController.m */,
+				DA8D3FD5279122F600657F85 /* OCFunViewController.h */,
+				DA8D3FD6279122F600657F85 /* OCFunViewController.m */,
+				DA8D3FD82795511400657F85 /* TwoNumbersAddViewController.h */,
+				DA8D3FD92795511400657F85 /* TwoNumbersAddViewController.m */,
 			);
 			path = "算法";
 			sourceTree = "<group>";
@@ -684,9 +702,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA8D3FDA2795511400657F85 /* TwoNumbersAddViewController.m in Sources */,
 				DA9BACC827732C860006E5B0 /* JFDemo-Bridging-Header.h in Sources */,
 				DA9BACF327732D4C0006E5B0 /* GTMBase64.m in Sources */,
 				DA9BACBB27732B8A0006E5B0 /* Blocks01ViewController.m in Sources */,
+				DA8D3FD7279122F600657F85 /* OCFunViewController.m in Sources */,
 				DA9BACBA27732B8A0006E5B0 /* JF02ViewController.m in Sources */,
 				DA9BAD0127740DAC0006E5B0 /* JFGCDSwiftViewController.swift in Sources */,
 				DA9BACC227732B8A0006E5B0 /* DictionaryViewController.m in Sources */,
@@ -721,7 +741,9 @@
 				DA9BACEB27732D4C0006E5B0 /* NSURLConnectiongViewController.m in Sources */,
 				DA9BACBF27732B8A0006E5B0 /* ObjectViewController.m in Sources */,
 				DAA8B2FC25E623DB00E6AC1A /* User.m in Sources */,
+				DA8D3FD42790275400657F85 /* FZStringOCViewController.m in Sources */,
 				DA9BACF127732D4C0006E5B0 /* XLEncrypt.m in Sources */,
+				DA8D3FD1279023C500657F85 /* FZStringViewController.swift in Sources */,
 				DAA8B2F625E4EB1100E6AC1A /* TestViewController.m in Sources */,
 				DA9BACC127732B8A0006E5B0 /* ArrayViewController.m in Sources */,
 				DA9BACB627732B8A0006E5B0 /* NSThread03ViewController.m in Sources */,
